@@ -11,5 +11,5 @@ npm run dev
 npm run build
 
 # Deploy static site
-sh deploy.sh
+sh _deploy.sh
 ```
