@@ -54,7 +54,7 @@ module.exports = {
   },
 
   markdown: {
-    lineNumbers: true
+    lineNumbers: false
   },
 
   /**
