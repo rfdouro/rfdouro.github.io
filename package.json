@@ -1,0 +1,21 @@
+{
+  "name": "estruturas_de_dados",
+  "version": "0.0.1",
+  "description": "Conceitos básicos acerca de Estruturas de Dados",
+  "main": "index.js",
+  "authors": {
+    "name": "Rômulo F. Douro",
+    "email": "rfdouro@gmail.com"
+  },
+  "repository": "/estruturas_de_dados",
+  "scripts": {
+    "configback": "export NODE_OPTIONS=--openssl-legacy-provider",
+    "dev": "vuepress dev src",
+    "build": "npm run configback && vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@maginapp/vuepress-plugin-katex": "^1.0.11",
+    "vuepress": "^1.5.3"
+  }
+}
