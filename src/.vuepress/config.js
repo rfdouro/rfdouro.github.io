@@ -51,9 +51,10 @@ module.exports = {
         }
       ],
     },
-    markdown: {
-      lineNumbers: true
-    }
+  },
+
+  markdown: {
+    lineNumbers: true
   },
 
   /**
