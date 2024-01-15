@@ -34,12 +34,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guia',
-        link: '/guide/',
+        text: 'Início',
+        link: '/inicio/',
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/inicio/': [
         {
           title: 'Guia',
           collapsable: false,
