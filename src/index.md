@@ -1,14 +1,18 @@
 ---
 home: true
-heroImage: capa.png
-tagline: Implementando Estruturas de Dados com Java
+heroImage: eu.png
+tagline: Projetos do Rômulo F. Douro
 actionText: Início →
-actionLink: /inicio/
+actionLink: /paginas/
 
 footer: Feito por Rômulo F. Douro 🚀
 ---
 
 ```console
-mkdir ok
-cd ok
+jshell
+import javax.swing.*
+var nome = JOptionPane.showInputDialog("qual seu nome")
+JOptionPane.showMessageDialog(null, "ola " + nome)
+/exit
+
 ```

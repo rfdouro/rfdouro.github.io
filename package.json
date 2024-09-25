@@ -1,5 +1,5 @@
 {
-  "name": "estruturas_de_dados",
+  "name": "rfdouro.github.io",
   "version": "0.0.1",
   "description": "Conceitos básicos acerca de Estruturas de Dados",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "name": "Rômulo F. Douro",
     "email": "rfdouro@gmail.com"
   },
-  "repository": "/estruturas_de_dados",
+  "repository": "/rfdouro.github.io",
   "scripts": {
     "configback": "export NODE_OPTIONS=--openssl-legacy-provider",
     "dev": "vuepress dev src",
@@ -16,7 +16,13 @@
   "license": "MIT",
   "devDependencies": {
     "@maginapp/vuepress-plugin-katex": "^1.0.11",
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
     "@vuepress/theme-blog": "^2.3.3",
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "estruturas_de_dados": "file:",
+    "rfdouro.github.io": "file:"
   }
 }

@@ -1,10 +1,11 @@
-const { description } = require('../../package')
+const { description } = require("../../package");
+
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Estruturas de Dados com Java',
+  title: "Projetos do Rômulo",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,9 +17,13 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    ["link", { rel: "icon", href: "/images/favicon.ico" }],
   ],
 
   /**
@@ -27,42 +32,56 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: "",
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: false,
     nav: [
       {
-        text: 'Início',
-        link: '/inicio/',
-      }
+        text: "Início",
+        link: "/paginas/",
+      },
     ],
     sidebar: {
-      '/inicio/': [
+      "/paginas/": [
         {
-          title: 'Guia',
-          collapsable: false,
+          title: "Início",
+          collapsable: true,
+          children: [""],
+        },
+        {
+          title: "Usando Java",
+          collapsable: true,
           children: [
-            '',
-            'intro-est-dados/intro-est-dados',
-            'ana-alg-basico/ana-alg-basico',
-          ]
-        }
+            "/paginas/projs-java/projs-java",
+            "/paginas/projs-java/projs-spring/projs-spring",
+          ],
+        },
+        {
+          title: "Usando Javascript",
+          collapsable: true,
+          children: ["/paginas/ana-alg-basico/ana-alg-basico"],
+        },
+        {
+          title: "Sobre Banco de Dados",
+          collapsable: true,
+          children: ["/paginas/ana-alg-basico/ana-alg-basico"],
+        },
       ],
     },
   },
 
   markdown: {
-    lineNumbers: false
+    lineNumbers: false,
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    ['@maginapp/katex', { delimiters: 'dollars' }],
+    "@vuepress/plugin-back-to-top",
+    "@vuepress/plugin-medium-zoom",
+    ["@maginapp/katex", { delimiters: "dollars" }],
   ],
-}
+};

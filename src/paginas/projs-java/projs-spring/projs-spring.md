@@ -1,10 +1,10 @@
-# Introdução a Estrutura de Dados
+# Projetos Spring
 
-Há sempre a necessidade de armazenar e recuperar dados em trabalhos que envolvem computação. 
+Aqui são listados alguns projetos feitos em Java. 
 
-O estudo da pesquisa, organização, tratamento e demais atividades que envolvem a estruturação de dados é atribuída em conjunto à eficiência com a qual os mesmos são utilizados.
+O estudo da linguagem, sua evolução e aplicações Orientadas a Objetos faz parte da minha natureza.
 
-## Tipos abstratos de dados
+## Projetos intrínsecos
 
 Um Tipo Abstrato de Dados (TAD) pode facilmente ser entendido como a representação de um objeto o que é intrínseco à linguagem Java.
 

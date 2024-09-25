@@ -27,5 +27,6 @@ pnpm-debug.log*
 *.sw?
 
 
-*.bat
 deploy.sh
+deploy.bat
+gitpush.bat
