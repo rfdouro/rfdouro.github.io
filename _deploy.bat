@@ -4,6 +4,8 @@ if exist .git\ (
  git init
 )
 
+call npm run build
+
 @echo off
 set /p messComit=Qual a mensagem de commit?: 
 echo ok %dmessComit%
@@ -19,4 +21,9 @@ git init
 git add -A
 git commit -m "codigo: PUSH %messComit%"
 git push -f https://<TOKEN>@github.com/<USER>/<REPO>.git master:gh-pages
+
+cd ..
+cd ..
+cd ..
+
 
