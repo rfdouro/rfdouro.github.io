@@ -10,7 +10,7 @@ Um Tipo Abstrato de Dados (TAD) pode facilmente ser entendido como a representa�
 
 Quando desejamos abstrair o comportamento e propriedades inerentes a um determinado conjunto de indivíduos concordamos em implementar a classe desses indivíduos que são então denominados objetos.
 
-![Alt text](./img/tad.png)
+![Alt text](../img/tad.png)
 
 ```java
 public class Pessoa {
@@ -48,7 +48,7 @@ A recursividade é uma técnica algorítmica que pressupõe a resolução de um 
 
 A seguir temos um modelo de exemplo:
 
-![Alt text](./img/recurs01.png)
+![Alt text](../img/recurs01.png)
 
 Assim observamos que um problema de tamanho N pode ser derivado em pequenos problemas sucessivamente e que ao se atingir um problema de tamanho 1 (um) o mesmo já possui resolução unívoca bastando assim unir as respostas de cada problema (subproblema).
 
@@ -80,7 +80,7 @@ Ressaltando que os termos começam em 1 (um).
 
 A figura a seguir demonstra o cálculo do 5o número da sequência.
 
-![Alt text](./img/arv-recurs-exemplo.png)
+![Alt text](../img/arv-recurs-exemplo.png)
 
 Imaginando uma árvore e partindo da raiz Fib(5) deve-se chegar até as folhas Fib(1) ou Fib(2) que são os critérios de parada. Após chegar ao critério de parada então se calcula cada termo subsequente até chegar ao termo pretendido.
 
@@ -134,7 +134,7 @@ Uma implementação algorítmica para o cálculo do fatorial pode ser dada como:
 
 A representação pode ser vista na próxima figura onde em azul tem-se a chamada a função, em verde os números que são usados no termo geral e em amarelo os resultados intermediários até chegar no resultado final em laranja para o cálculo do fatorial de 5.
 
-![Alt text](./img/rep-fat-5.png)
+![Alt text](../img/rep-fat-5.png)
 
 A análise é facilmente visualizada de forma invertida, assim:
 

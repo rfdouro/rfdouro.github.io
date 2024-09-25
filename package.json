@@ -9,9 +9,9 @@
   },
   "repository": "/rfdouro.github.io",
   "scripts": {
-    "configback": "export NODE_OPTIONS=--openssl-legacy-provider",
+    "configback": "set NODE_OPTIONS=--openssl-legacy-provider",
     "dev": "vuepress dev src",
-    "build": "npm run configback && vuepress build src"
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
