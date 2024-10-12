@@ -1,0 +1,37 @@
+{
+  "name": "site-romulo",
+  "version": "1.0.0",
+  "description": "Site do Rômulo no Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfdouro/rfdouro.github.io.git"
+  },
+  "keywords": [
+    "Vuepress",
+    "Github"
+  ],
+  "author": "rfdouro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfdouro/rfdouro.github.io/issues"
+  },
+  "homepage": "https://github.com/rfdouro/rfdouro.github.io#readme",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.17",
+    "@vuepress/plugin-cache": "^2.0.0-rc.52",
+    "@vuepress/plugin-search": "^2.0.0-rc.52",
+    "@vuepress/theme-default": "^2.0.0-rc.52",
+    "sass-embedded": "^1.79.4",
+    "vuepress": "^2.0.0-rc.17"
+  },
+  "dependencies": {
+    "site-romulo": "file:",
+    "vuepress-theme-hope": "^2.0.0-rc.58"
+  }
+}

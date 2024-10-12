@@ -1,0 +1,23 @@
+//$theme-color: #096dd9;
+$theme-color: #1e0c61;
+$theme-colors: #2196f3, #f26d6d, #3eaf7c, #fb9b5f;
+
+.vp-navbar-center * {
+  align-items: flex-end !important;
+}
+
+.vp-hero-image {
+  background: rgba(128, 128, 128, 0);
+  transform: rotateY(0deg);
+  opacity: 1;
+  animation: rotateAnimation 10s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
